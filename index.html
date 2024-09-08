@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="logo">
+      Solar explorer
+      <span>in only CSS</span>
+    </h1>
+    <input class="planet9" id="pluto" type="radio" name="planet" />
+    <label class="menu pluto" for="pluto">
+      <div class="preview"></div>
+      <div class="info">
+        <h2>
+          <div class="pip"></div>
+          Pluto
+        </h2>
+        <h3>39.5 AU</h3>
+      </div>
+    </label>
+    <input class="planet8" id="neptune" type="radio" name="planet" />
+    <label class="menu neptune" for="neptune">
+      <div class="preview"></div>
+      <div class="info">
+        <h2>
+          <div class="pip"></div>
+          Neptune
+        </h2>
+        <h3>30.06 AU</h3>
+      </div>
+    </label>
+    <input class="planet7" id="uranus" type="radio" name="planet" />
+    <label class="menu uranus" for="uranus">
+      <div class="preview"></div>
+      <div class="info">
+        <h2>
+          <div class="pip"></div>
+          Uranus
+        </h2>
+        <h3>19.18 AU</h3>
+      </div>
+    </label>
+    <input class="planet6" id="saturn" type="radio" name="planet" />
+    <label class="menu saturn" for="saturn">
+      <div class="preview"></div>
+      <div class="info">
+        <h2>
+          <div class="pip"></div>
+          Saturn
+        </h2>
+        <h3>9.539 AU</h3>
+      </div>
+    </label>
+    <input class="planet5" id="jupiter" type="radio" name="planet" />
+    <label class="jupiter menu" for="jupiter">
+      <div class="preview"></div>
+      <div class="info">
+        <h2>
+          <div class="pip"></div>
+          Jupiter
+        </h2>
+        <h3>5.203 AU</h3>
+      </div>
+    </label>
+    <input
+      class="planet4"
+      id="mars"
+      type="radio"
+      name="planet"
+      checked="checked"
+    />
+    <label class="mars menu" for="mars">
+      <div class="preview"></div>
+      <div class="info">
+        <h2>
+          <div class="pip"></div>
+          Mars
+        </h2>
+        <h3>1.524 AU</h3>
+      </div>
+    </label>
+    <input
+      class="planet3"
+      id="earth"
+      type="radio"
+      name="planet"
+      checked="checked"
+    />
+    <label class="earth menu" for="earth">
+      <div class="preview"></div>
+      <div class="info">
+        <h2>
+          <div class="pip"></div>
+          Earth
+        </h2>
+        <h3>1 AU</h3>
+      </div>
+    </label>
+    <input
+      class="planet2"
+      id="venus"
+      type="radio"
+      name="planet"
+      checked="checked"
+    />
+    <label class="menu venus" for="venus">
+      <div class="preview"></div>
+      <div class="info">
+        <h2>
+          <div class="pip"></div>
+          Venus
+        </h2>
+        <h3>0.723 AU</h3>
+      </div>
+    </label>
+    <input
+      class="planet1"
+      id="mercury"
+      type="radio"
+      name="planet"
+      checked="checked"
+    />
+    <label class="menu mercury" for="mercury">
+      <div class="preview"></div>
+      <div class="info">
+        <h2>
+          <div class="pip"></div>
+          Mercury
+        </h2>
+        <h3>0.39 AU</h3>
+      </div>
+    </label>
+    <div class="solar">
+      <div class="solar_systm">
+        <div class="mercury planet">
+          <div class="mercury planet_description">
+            <h2>Planet - Her Swiftness</h2>
+            <h1>Mercury</h1>
+            <p>
+              Just like Mercury, the closest planet to the sun, my love's energy
+              is unmatched. She moves through life with grace and speed, leaving
+              a trail of brilliance wherever she goes. Her quick wit and sharp
+              mind are like Mercury's swift orbit, always keeping me on my toes
+              and captivated.
+            </p>
+            <label for="readMercury">
+              <a>
+                Read Mor
+                <span>e</span>
+              </a>
+            </label>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="solar_systm">
+        <div class="planet venus">
+          <div class="planet_description venus">
+            <h2>Planet - Goddess of Love and Beauty</h2>
+            <h1>Venus</h1>
+            <p>
+              My girlfriend is my Venus, embodying the very essence of love and
+              beauty. Just as Venus shines the brightest among the stars, her
+              presence lights up every room she enters, making my world glow
+              with her radiance.
+            </p>
+            <label for="readVenus">
+              <a>
+                Read Mor
+                <span>e</span>
+              </a>
+            </label>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="solar_systm">
+        <div class="earth planet">
+          <div class="moon moon">
+            <h3>Moon</h3>
+            <h2>Moon</h2>
+          </div>
+          <div class="m trajectory"></div>
+          <div class="earth planet_description">
+            <h2>Planet - My Home, My Everything</h2>
+            <h1>Earth</h1>
+            <p>
+              Just as Earth is our home, she is my sanctuary. Her love is the
+              oxygen I breathe, the water that sustains me, and the life that
+              fills my soul. With her, I feel truly alive.
+            </p>
+            <label for="readEarth">
+              <a>
+                Read Mor
+                <span>e</span>
+              </a>
+            </label>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="solar_systm">
+        <div class="mars planet">
+          <div class="deimos moon">
+            <h3>Moon</h3>
+            <h2>Deimos</h2>
+          </div>
+          <div class="d trajectory"></div>
+          <div class="moon phoebos">
+            <h3>Moon</h3>
+            <h2>Phoebos</h2>
+          </div>
+          <div class="p trajectory"></div>
+          <div class="mars planet_description">
+            <h2>Planet - Fiery Passion</h2>
+            <h1>Mars</h1>
+            <p>
+              My girlfriend is my Mars, filled with the fiery passion of the
+              Roman god of war. She is strong, determined, and fiercely loving,
+              igniting a fire in my heart that burns brighter every day.
+            </p>
+            <label for="readMars">
+              <a>
+                Read Mor
+                <span>e</span>
+              </a>
+            </label>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="solar_systm">
+        <div class="jupiter planet">
+          <div class="lo moon">
+            <h3>Moon</h3>
+            <h2>Io</h2>
+          </div>
+          <div class="europa moon">
+            <h3>Moon</h3>
+            <h2>Europa</h2>
+          </div>
+          <div class="ganymede moon">
+            <h3>Moon</h3>
+            <h2>Ganymede</h2>
+          </div>
+          <div class="lop trajectory"></div>
+          <div class="eu trajectory"></div>
+          <div class="ga trajectory"></div>
+          <div class="jupiter planet_description">
+            <h2>Planet - Her Magnificence</h2>
+            <h1>Jupiter</h1>
+            <p>
+              My love is as grand as Jupiter, the largest planet in the solar
+              system. She commands attention and respect, her beauty and
+              presence larger than life itself.
+            </p>
+            <label for="readJupiter">
+              <a>
+                Read Mor
+                <span>e</span>
+              </a>
+            </label>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="solar_systm">
+        <div class="planet saturn">
+          <div class="moon titan">
+            <h3>Moon</h3>
+            <h2>Titan</h2>
+          </div>
+          <div class="dione moon">
+            <h3>Moon</h3>
+            <h2>Dione</h2>
+          </div>
+          <div class="enceladus moon">
+            <h3>Moon</h3>
+            <h2>Enceladus</h2>
+          </div>
+          <div class="ti trajectory"></div>
+          <div class="di trajectory"></div>
+          <div class="enc trajectory"></div>
+          <div class="planet_description saturn">
+            <h2>Planet - Her Grace</h2>
+            <h1>Saturn</h1>
+            <p>
+              My girlfriend is as elegant as Saturn, with a beauty that is both
+              subtle and striking. She carries herself with a grace that is
+              unmatched, like Saturn’s stunning rings that encircle her with
+              love.
+            </p>
+            <label for="readSaturn">
+              <a>
+                Read Mor
+                <span>e</span>
+              </a>
+            </label>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="solar_systm">
+        <div class="planet uranus">
+          <div class="miranda moon">
+            <h3>Moon</h3>
+            <h2>Miranda</h2>
+          </div>
+          <div class="ariel moon">
+            <h3>Moon</h3>
+            <h2>Ariel</h2>
+          </div>
+          <div class="moon umbriel">
+            <h3>Moon</h3>
+            <h2>Umbriel</h2>
+          </div>
+          <div class="mir trajectory"></div>
+          <div class="ari trajectory"></div>
+          <div class="trajectory umb"></div>
+          <div class="planet_description uranus">
+            <h2>Planet - Her Uniqueness</h2>
+            <h1>Uranus</h1>
+            <p>
+              My girlfriend is as unique as Uranus, with a personality that
+              stands out from the crowd. She is different in the most beautiful
+              way, her uniqueness making her even more special to me.
+            </p>
+            <label for="readUranus">
+              <a>
+                Read Mor
+                <span>e</span>
+              </a>
+            </label>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="solar_systm">
+        <div class="neptune planet">
+          <div class="moon triton">
+            <h3>Moon</h3>
+            <h2>Triton</h2>
+          </div>
+          <div class="moon proteus">
+            <h3>Moon</h3>
+            <h2>Proteus</h2>
+          </div>
+          <div class="moon nereid">
+            <h3>Moon</h3>
+            <h2>Nereid</h2>
+          </div>
+          <div class="trajectory tri"></div>
+          <div class="pro trajectory"></div>
+          <div class="ner trajectory"></div>
+          <div class="neptune planet_description">
+            <h2>Planet - Her Depths</h2>
+            <h1>Neptune</h1>
+            <p>
+              My girlfriend is as deep as Neptune, with a soul that is vast and
+              mysterious. She is a sea of emotions, each wave of love pulling me
+              deeper into her world.
+            </p>
+            <label for="readNeptune">
+              <a>
+                Read Mor
+                <span>e </span>
+              </a>
+            </label>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="solar_systm">
+        <div class="planet pluto">
+          <div class="planet_description pluto">
+            <h2>Dwarf planet - Her Mysterious Nature</h2>
+            <h1>Pluto</h1>
+            <p>
+              My girlfriend is my Pluto, once hidden from view but now the
+              center of my universe. She is mysterious and intriguing, always
+              leaving me wanting to know more.
+            </p>
+            <label for="readPluto">
+              <a>
+                Read Mor
+                <span>e </span>
+              </a>
+            </label>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </div>
+    <input class="read" id="readMercury" type="radio" name="mercuryRead" />
+    <label class="closeBig" for="closeMercury"></label>
+    <input class="read" id="closeMercury" type="radio" name="mercuryRead" />
+    <div class="panel">
+      <h1>Mercury</h1>
+      <p>
+        Ancient Wisdom: My love carries within her the wisdom of the ages. Just
+        as Mercury was known to ancient civilizations, her soul is rich with
+        knowledge and experience. She understands the world in a way that is
+        both deep and mysterious, much like the hidden secrets of the universe.
+      </p>
+      <img src="Project3/Mercury.jpg" />
+      <h2>Her Timeless Beauty</h2>
+      <p>
+        A year with her feels like a moment, yet also an eternity. Like
+        Mercury's 88-day year, time seems to slow down and speed up all at once
+        when I'm with her. Every moment is precious, filled with the intensity
+        of a love that knows no bounds.
+      </p>
+      <h2>Petite yet Powerful</h2>
+      <p>
+        She may be small in stature, but like Mercury, she is the second densest
+        being in my universe. Her presence is felt deeply; every glance, every
+        touch is powerful and leaves a lasting impression on my heart.
+      </p>
+      <h2>Her Unique Marks</h2>
+      <p>
+        Just as Mercury's surface has wrinkles, her uniqueness is in the little
+        imperfections that make her perfect. Every laugh line, every freckle is
+        a story of a moment we've shared, a memory etched into the fabric of our
+        love.
+      </p>
+      <br />
+    </div>
+    <input class="read" id="readVenus" type="radio" name="venusRead" />
+    <label class="closeBig" for="closeVenus"></label>
+    <input class="read" id="closeVenus" type="radio" name="venusRead" />
+    <div class="panel">
+      <h1>Venus</h1>
+      <p>
+        Venus, named after the goddess of love, reminds me of my beloved. Just
+        as Venus shines the brightest among the planets, she outshines everyone
+        in my eyes. Her beauty and radiance capture my heart, much like how
+        Venus has captivated astronomers for centuries.
+      </p>
+      <p>
+        My love for her is constant, appearing at both dawn and dusk, like Venus
+        as the morning and evening star. She brings light to my life,
+        illuminating even the darkest moments. Though others may see challenges,
+        I see only the warmth of her love, transforming any environment into
+        paradise.
+      </p>
+      <img src="Project3/Venus.jpg" />
+      <h2>Our love transcends time.</h2>
+      <p>
+        In the vastness of our love, time loses meaning. A single day with her
+        feels like an eternity of bliss, while years pass like moments. Our bond
+        defies conventional measures, creating its own rhythm in the universe of
+        our affection.
+      </p>
+      <h2>Our love challenges conventions.</h2>
+      <p>
+        Like Venus' unique rotation, our love doesn't follow the usual paths.
+        We've created our own direction, spinning together in a dance that may
+        seem unconventional to others but feels perfectly natural to us. Our
+        relationship needs no external validation; we are complete in ourselves.
+      </p>
+      <h2>Her love illuminates my world.</h2>
+      <p>
+        Her love shines so brightly that it outshines all else in my life. Even
+        in broad daylight, the radiance of her affection is visible to me,
+        guiding my path and warming my heart.
+      </p>
+      <h2>The depth of our love is immeasurable.</h2>
+      <p>
+        The intensity of our love is beyond compare. It withstands any pressure,
+        growing stronger with each challenge. In the vast ocean of life, our
+        love provides a constant, comforting presence, supporting us through
+        every depth and height we encounter together.
+      </p>
+      <br />
+    </div>
+    <input class="read" id="readEarth" type="radio" name="earthRead" />
+    <label class="closeBig" for="closeEarth"></label>
+    <input class="read" id="closeEarth" type="radio" name="earthRead" />
+    <div class="panel">
+      <h1>Earth</h1>
+      <p>
+        She is as grand as Earth itself, her presence larger than life. She is
+        my world, vast and full of wonder, where every day brings a new
+        discovery. Our love is like the atmosphere, enveloping us in its warmth
+        and sustaining our connection.
+      </p>
+      <p>
+        In the vastness of the universe, she stands out as the most precious
+        gem. Her love is as deep as the oceans, as solid as the ground beneath
+        our feet, and as life-giving as the air we breathe.
+      </p>
+      <img src="Project3/Earth.jpg" />
+      <h2>Our Growing Love</h2>
+      <p>
+        Like the Earth's rotation slowing down, our love grows stronger and
+        deeper with time. It's a love that evolves, becoming richer and more
+        fulfilling with each passing day. Every moment spent together adds to
+        the tapestry of our shared life, creating a love story that spans eons.
+      </p>
+      <h2>Her Central Place</h2>
+      <p>
+        Just as Earth was once thought to be the center of the universe, she is
+        the center of mine. Everything in my life revolves around her, and I
+        wouldn't have it any other way. Her gravitational pull on my heart is
+        undeniable, keeping me in perfect orbit around her love.
+      </p>
+      <h2>Her Protective Aura</h2>
+      <p>
+        Her love is like Earth's magnetic field, protecting me from the storms
+        of life. She is my shield, my safe haven, where I know I am always loved
+        and cared for. In her embrace, I find the strength to face any
+        challenge, knowing she'll always be there to support me.
+      </p>
+      <h2>Our Moonlit Nights</h2>
+      <p>
+        She is my only moon, the one who lights up my nights and makes even the
+        darkest times beautiful. Our love is like the Moon and Earth, forever
+        connected, forever in sync. Just as the Moon influences the tides, her
+        love shapes the ebb and flow of my emotions, creating a perfect harmony
+        in our relationship.
+      </p>
+      <br />
+    </div>
+    <input class="read" id="readMars" type="radio" name="marsRead" />
+    <label class="closeBig" for="closeMars"></label>
+    <input class="read" id="closeMars" type="radio" name="marsRead" />
+    <div class="panel">
+      <h1>Mars</h1>
+      <p>
+        Her Boldness: Just as Mars is known for its red hue, she stands out with
+        her bold and vibrant personality. She is unafraid to be herself, and
+        that confidence is incredibly sexy.
+      </p>
+      <img src="Project3/Mars.jpg" />
+      <h2>Her Equal</h2>
+      <p>
+        Like Mars and Earth having similar landmasses, we are equals in every
+        way. Together, we share the weight of the world, supporting each other
+        through every challenge.
+      </p>
+      <h2>Her Unmatched Heights</h2>
+      <p>
+        She is like Olympus Mons, the tallest mountain in the solar system. She
+        reaches heights that no one else can, inspiring me to be better, to
+        reach higher, just to be worthy of her love.
+      </p>
+      <h2>Her Persistence</h2>
+      <p>
+        Just as only a few missions to Mars have been successful, winning her
+        heart was a challenge, but one worth every effort. Now that I have her,
+        I cherish her more than anything.
+      </p>
+      <h2>Her Wild Side</h2>
+      <p>
+        She has a wild side, like the dust storms on Mars, unpredictable and
+        thrilling. Being with her is an adventure, one I would never trade for
+        anything else.
+      </p>
+      <br />
+    </div>
+    <input class="read" id="readJupiter" type="radio" name="jupiterRead" />
+    <label class="closeBig" for="closeJupiter"></label>
+    <input class="read" id="closeJupiter" type="radio" name="jupiterRead" />
+    <div class="panel">
+      <h1>Jupiter</h1>
+      <p>Her Strength</p>
+      <p>
+        Just as Jupiter is named after the king of the gods, she is the queen of
+        my heart. Her strength and wisdom guide me, and I am in awe of her every
+        day. She helped revolutionize the way I see the universe and myself.
+        Discovering her love was like Galileo discovering Jupiter's moons - it
+        completely changed my perspective. She showed me that my heart could
+        orbit around someone other than myself, supporting the view that I am
+        not the center of the universe.
+      </p>
+      <img src="Project3/Jupiter.jpg" />
+      <h2>Her Brightness</h2>
+      <p>
+        She is the fourth brightest object in my life, her light guiding me
+        through the darkest of times. Her love is like Jupiter, visible even
+        from afar, always there, always strong.
+      </p>
+      <h2>Ancient and Eternal</h2>
+      <p>
+        Like the Babylonians who first recorded Jupiter, my love for her feels
+        ancient, eternal, as if it has always existed and will continue to do so
+        forever. Just as Jupiter has been seen by cultures throughout history,
+        my love for her transcends time. To me, she represents strength, wisdom,
+        and beauty, much like Jupiter represented different gods to various
+        ancient civilizations.
+      </p>
+      <h2>Her Unstoppable Energy</h2>
+      <p>
+        She has the shortest days, filled with energy and excitement.Her zest
+        for life is contagious, and I can't help but be swept up in her world.
+        She brings a whirlwind of joy and activity to every moment we share.
+      </p>
+      <h2>Our Slow Dance</h2>
+      <p>
+        Like Jupiter's long orbit around the Sun, our love is a slow, beautiful
+        dance. We move through life together, in sync, taking our time to savor
+        every moment. Our journey may be long, but every step is a treasure.
+      </p>
+      <br />
+    </div>
+    <input class="read" id="readSaturn" type="radio" name="saturnRead" />
+    <label class="closeBig" for="closeSaturn"></label>
+    <input class="read" id="closeSaturn" type="radio" name="saturnRead" />
+    <div class="panel">
+      <h1>Saturn</h1>
+      <p>
+        Just as Saturn has been known to the ancients, her beauty is timeless,
+        admired by all who see her. She is a classic, the epitome of elegance
+        and style. Her grace and charm have captivated me from the moment we
+        met, and I find myself falling deeper in love with her every day. Like
+        Saturn's rings, her beauty is unique and extraordinary, setting her
+        apart from everyone else in my universe.
+      </p>
+      <img src="Project3/Saturn.jpg" />
+      <h2>Her Visibility</h2>
+      <p>
+        She can be seen by all, her beauty shining bright even from afar. She is
+        the fifth brightest star in my sky, and every time I see her, I am
+        reminded of how lucky I am to have her. Her presence illuminates my
+        world, guiding me through the darkest of times. Just as Saturn is easily
+        studied through a small telescope, I find myself constantly in awe as I
+        discover new facets of her personality and beauty.
+      </p>
+      <h2>Her Ancient Wisdom</h2>
+      <p>
+        She carries with her the wisdom of the ages, just as Saturn was known to
+        the ancients. Her knowledge and experience make her even more alluring,
+        a mystery I am always eager to uncover. Like Saturn, named after the
+        Roman god of time, she seems to possess a timeless quality, her insights
+        and understanding transcending the present moment.
+      </p>
+      <h2>Her Perfect Shape</h2>
+      <p>
+        Like Saturn's flatness, she is perfectly shaped, every curve a
+        masterpiece. She is the definition of beauty, her form flawless and
+        divine. Just as Saturn's unique shape is due to its composition and
+        rotation, her beauty is a perfect blend of her inner qualities and outer
+        grace, creating a harmony that takes my breath away.
+      </p>
+      <h2>Our Long Journey</h2>
+      <p>
+        Our love is like Saturn's slow orbit, taking its time to grow and
+        evolve. It is a journey that we embark on together, savoring every
+        moment, knowing that the destination is a lifetime of happiness. Just as
+        Saturn's movement earned it the nickname "oldest of the old," our love
+        feels ancient and eternal, as if it has always existed and will continue
+        to do so forever.
+      </p>
+      <br />
+    </div>
+    <input class="read" id="readUranus" type="radio" name="uranusRead" />
+    <label class="closeBig" for="closeUranus"></label>
+    <input class="read" id="closeUranus" type="radio" name="uranusRead" />
+    <div class="panel">
+      <h1>Uranus</h1>
+      <p>
+        Her beauty is like Uranus, too dim to be noticed by the ordinary, but
+        for those who truly see her, she is breathtaking. She is the hidden gem,
+        the star that shines brightest in my eyes. Her allure isn't immediately
+        apparent to everyone, but to those who take the time to truly know her,
+        she reveals a beauty that is unparalleled and eternal. Like Uranus,
+        initially mistaken for a mere star, her true magnificence becomes
+        evident upon closer inspection.
+      </p>
+      <img src="Project3/Uranus.jpg" />
+      <h2>Her Discovery</h2>
+      <p>
+        Just as Uranus was discovered by chance, finding her felt like a stroke
+        of luck. She is my greatest discovery, the treasure I never knew I was
+        searching for. Our meeting was serendipitous, a moment that changed the
+        course of my life forever. Like William Herschel stumbling upon Uranus
+        while surveying the stars, I found her unexpectedly, and in that
+        instant, my world expanded beyond anything I had ever imagined.
+      </p>
+      <h2>Her Unpredictable Nature</h2>
+      <p>
+        Like Uranus's retrograde rotation, she is wonderfully unpredictable. She
+        keeps me on my toes, always surprising me with her spontaneity and zest
+        for life. Just as Uranus spins in the opposite direction to most
+        planets, she approaches life in her own unique way. Her unconventional
+        thinking and ability to see things from a different perspective
+        constantly amaze me, making every day an exciting adventure.
+      </p>
+      <h2>Our Endless Love</h2>
+      <p>
+        Our love is like Uranus's long orbit, taking years to complete but
+        always moving forward. It is a love that stands the test of time,
+        enduring through every challenge. Just as Uranus takes 84 Earth years to
+        circle the Sun, our love grows deeper and stronger with each passing
+        year. We face the light and darkness together, knowing that our bond
+        will withstand any cosmic shifts that come our way.
+      </p>
+      <h2>Her Icy Exterior</h2>
+      <p>
+        She may have an icy exterior, like Uranus, but beneath it lies a heart
+        of gold. She is cool and composed on the outside, but inside, she is
+        warm, loving, and full of passion. Like the ice giant Uranus, with its
+        frozen outer layers concealing a dynamic core, her calm demeanor masks a
+        depth of emotion and intensity that never ceases to captivate me.
+        Peeling back the layers of her personality is an ongoing journey of
+        discovery, revealing new wonders with each passing day.
+      </p>
+      <br />
+    </div>
+    <input class="read" id="readNeptune" type="radio" name="neptuneRead" />
+    <label class="closeBig" for="closeNeptune"></label>
+    <input class="read" id="closeNeptune" type="radio" name="neptuneRead" />
+    <div class="panel">
+      <h1>Neptune</h1>
+      <p>
+        Like Neptune, she was not known to the ancients, but her power is
+        undeniable. She is a force to be reckoned with, her strength and beauty
+        invisible to those who don't take the time to truly see her. Just as
+        Neptune's mysteries continue to captivate astronomers, she continues to
+        amaze me every day. Her influence on my life is profound, like Neptune's
+        gravitational pull, invisibly shaping my world in ways I'm still
+        discovering.
+      </p>
+      <img src="Project3/Neptune.jpg" />
+      <h2>Her Predicted Beauty</h2>
+      <p>
+        Just as Neptune was predicted before it was seen, I knew she was the one
+        before I ever laid eyes on her. She is everything I dreamed of and more.
+        Our love story was written in the stars long before we met, much like
+        how Neptune's existence was calculated before it was observed. The
+        irregularities in my life's orbit led me to her, and when I finally saw
+        her, it was as if all the mathematical predictions of my heart had come
+        true. She is my celestial discovery, the missing piece that completes my
+        universe.
+      </p>
+      <h2>Her Invisible Power</h2>
+      <p>
+        She is not visible to the casual observer, her true beauty and strength
+        apparent only to those who take the time to truly know her. Like
+        Neptune, hidden from the naked eye, she reveals her magnificence to
+        those who seek her out with dedication and love.
+      </p>
+      <h2>Her Speed</h2>
+      <p>
+        She moves through life with the rapidity of Neptune's spin, her energy
+        boundless and her spirit unstoppable. She is a whirlwind of love,
+        sweeping me off my feet time and time again. Her passion and zest for
+        life are as constant as Neptune's rotation, never ceasing to inspire and
+        energize me.
+      </p>
+      <h2>Her Layered Complexity</h2>
+      <p>
+        Like Neptune's layers of gases, her personality is complex and layered.
+        There is always something new to discover, another reason to fall in
+        love with her all over again. Beneath her serene exterior lies a depth
+        of emotion, intellect, and passion that continues to amaze me. Each
+        layer of her being is a new adventure, a new realm to explore in our
+        journey of love.
+      </p>
+      <h2>Her Mesmerizing Beauty</h2>
+      <p>
+        Her beauty is like Neptune's blue hue, mesmerizing and serene. She is a
+        vision of loveliness, her presence calming and soothing, like the gentle
+        waves of a vast ocean. The way she moves, the way she speaks, the way
+        she looks at me - everything about her is as captivating as Neptune's
+        ethereal blue glow. In her eyes, I see the depth of the universe, a
+        beauty that transcends the physical and touches the soul.
+      </p>
+    </div>
+    <input class="read" id="readPluto" type="radio" name="plutoRead" />
+    <label class="closeBig" for="closePluto"></label>
+    <input class="read" id="closePluto" type="radio" name="plutoRead" />
+    <div class="panel">
+      <h1>Pluto</h1>
+      <p>
+        Her Underworld Charm: She is named after the god of the underworld, but
+        her charm is heavenly. She captivates me with her enigmatic nature,
+        drawing me in with every smile, every word. Like Pluto's mysterious
+        allure, she holds secrets that I long to uncover. Her presence in my
+        life is like discovering a new celestial body - unexpected, thrilling,
+        and forever changing my universe. With each passing day, I find myself
+        more enthralled by her otherworldly beauty and the depth of her
+        character.
+      </p>
+      <p>
+        Her Reclassification: Just as Pluto was reclassified, she has redefined
+        what love means to me. She has shown me a new world of emotions, a new
+        way of being, and I am forever changed by her. Our love story is unique,
+        defying conventional classifications much like Pluto challenges
+        traditional planetary definitions. She has expanded my understanding of
+        love, introducing me to feelings I never knew existed, and reshaping my
+        emotional landscape in ways I never thought possible.
+      </p>
+      <img src="Project3/Pluto.jpg" />
+      <h2>Her Underworld Charm</h2>
+      <p>
+        Like Pluto, named after the god of the underworld, she possesses a charm
+        that is both mysterious and irresistible. Her allure goes beyond the
+        surface, drawing me into the depths of her soul.
+      </p>
+      <h2>Her Reclassification</h2>
+      <p>
+        Just as Pluto's status changed, she has transformed my definition of
+        love. She's rewritten the rules of my heart, creating a new category of
+        emotion that only she can fill.
+      </p>
+      <h2>Our Endless Orbit</h2>
+      <p>
+        Our love is like Pluto's long orbit, taking years to complete but always
+        in motion. It is a love that endures, even in the coldest and darkest
+        times. Like Pluto's journey around the sun, our relationship may have
+        its distant points, but we always come back to each other, our
+        gravitational pull unbreakable.
+      </p>
+      <h2>Her Many Faces</h2>
+      <p>
+        Like Pluto's five moons, she has many faces, each one more beautiful
+        than the last. She is multifaceted, with layers of personality that I am
+        constantly discovering, each one making me fall in love with her even
+        more. From her playful side to her serious demeanor, from her passionate
+        nature to her calm wisdom, every aspect of her personality is a new moon
+        for me to explore and cherish.
+      </p>
+    </div>
+  </body>
+</html>
